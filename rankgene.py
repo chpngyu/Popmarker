@@ -21,7 +21,7 @@ try:
     from statsmodels.sandbox.stats.multicomp import multipletests
     do_fdr = True
 except ImportError:
-    print('No StatsModels installed, the FDR estimation will be performed.')
+    print('No StatsModels installed, the FDR estimation will not be performed.')
     do_fdr = False
 
 epilog_info = '''The available methods of correlation include
@@ -106,7 +106,7 @@ else:
     print('The calculation of correlations within clade(s) will not be performed')
     do_clade = False
 
-all_species = list(all_species) # tarnsfrom to list for later use
+all_species = list(all_species) # transform to list for later use
 tree_distance = biotree.distance(all_species)
 
 # computing the correlations between the reference tree and sequence similarities of genes
@@ -185,7 +185,7 @@ else:
 result = sorted(tmp_result, key=lambda x: x[rank_idx]) # sorting by rank
 del tmp_result
 
-# writing results to the putput
+# writing results to the output
 outfile = open(args.result, 'w')
 head = '\t'.join(all_species)
 if do_fdr:
