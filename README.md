@@ -16,13 +16,9 @@ and an additional package StatsModels (0.6.1 or later) is recommended for calcul
 Step1. Finding Orthoship
 First, go to the folder of Step1
 cd $HOME/Example/Step1/
-
 and obtain 1-to-1 orthologous relationships among species (48 species in sp_list.txt) based on the output of OrthoFinder (OrthologousGroups.txt)
-
 python $HOME/source/orthoships.py -o $HOME/Example/InputFile/OrthologousGroups.txt -s $HOME/ Example /InputFile/sp_list.txt -r orthoships_result.txt 
-
 The orthoships_result.txt will give 2287(/14265 in total) 1-to-1 orthologous groups. For the detailed options, -h (or --help) is available
-
 python $HOME/source/orthoships.py -h
 
 Step2. Constructing Species Tree
