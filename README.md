@@ -103,4 +103,4 @@ For calculating the distance between only Vca clades in species tree and gene tr
 python $HOME/source/treedist.py -r ref.sp.tree -q *.tree -t Vca051011E Vca051011F Vca051011G Vca1114GL Vca1116 Vca151112c Vca200612B VcaCCS02 VcaDS40M4 VcaHY01 VcaKC13 VcaNBRC15631 VcaUMTGB204 -o VcaClade_tree_distance.txt
 
 For the detailed options, type
-python $HOME/source/ treedist.py -h
+python $HOME/source/treedist.py -h
