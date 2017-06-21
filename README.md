@@ -8,10 +8,10 @@ Popmarker is implemented by Python and there is no need to install it. This pipe
 
 # Prerequisites Packages
 
-  - Numpy (1.11.1 or later)
-  - Scipy (0.17.1 or later)
-  - Matplotlib (1.5.1 or later)
-  - Biopython (1.67 or later)
+  - Numpy (1.11.1 or higher)
+  - Scipy (0.17.1 or higher)
+  - Matplotlib (1.5.1 or higher)
+  - Biopython (1.67 or higher)
 
 and an additional package StatsModels (0.6.1 or later) is recommended for calculating the False Discovery Rate (FDR).
 
