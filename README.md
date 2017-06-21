@@ -6,7 +6,7 @@ As phylogenomic approach become a common practice for constructing a tree reflec
 
 Popmarker is implemented by Python and there is no need to install it. This pipeline includes the following five steps, where the root of directory is assumed in $HOME, the source codes are in the $HOME/source, and the example data used in this pipeline are given in the $HOME/Example.
 
-# Prerequisite Packages
+### Prerequisite Packages
 
   - Numpy (1.11.1 or higher)
   - Scipy (0.17.1 or higher)
